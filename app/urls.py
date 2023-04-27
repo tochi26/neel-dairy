@@ -20,7 +20,10 @@ urlpatterns = [
     path('updateAddress/<int:pk>', views.updateAddress.as_view(), name='updateAddress'),
 
     path('add-to-cart/', views.add_to_cart, name='add-to-cart'),
-    #path('cart/', views.show_cart, name='showcart'),
+    path('cart/', views.show_cart, name='showcart'),
+    path('checkout/', views.show_cart, name='checkout'),
+
+    path('pluscart/', views.plus_cart),
 
 
     #login authentication 
