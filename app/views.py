@@ -113,7 +113,11 @@ def show_cart(request):
         value = p.quantity * p.product.discounted_price
         amount = amount + value
     totalamount = amount + 40   
-    return render(request, 'app/addtocart.html',locals()) 
+    return render(request, 'app/addtocart.html',locals())
+
+class checkout(View):
+    def get(self,request):    
+       return render(request, 'app/checkout.html',locals())  
 
 def plus_cart(request):
     if request.method == 'GET':
