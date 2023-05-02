@@ -26,6 +26,7 @@ urlpatterns = [
     path('orders/', views.home, name='orders'),
 
     path('search/',views.search,name='search'),
+    path('wishlist/',views.show_wishlist, name='showwishlist'),
 
     path('pluscart/', views.plus_cart),
     path('minuscart/', views.minus_cart),
