@@ -1,4 +1,5 @@
 from django.urls import include, path
+from django.contrib import admin
 from . import views
 from django.conf import settings 
 from django.conf.urls.static import static
@@ -58,3 +59,7 @@ urlpatterns = [
 
 
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+admin.site.site_header = 'Neel Diary'
+admin.site.site_title = 'Neel Diary'
+admin.site.site_header = 'Welcome to Neel Dairy Shop'
