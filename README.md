@@ -12,10 +12,8 @@ To install the app, follow these steps:
 2. Create a virtual environment: python -m venv env
 3. Activate the virtual environment: source env/bin/activate (on Linux/Mac) or  env\Scripts\activate (on Windows)
 4. Install the dependencies by running pip install -r requirements.txt
-5. Create a PostgreSQL database and update the DATABASES setting in settings.py
-Run the migrations: python manage.py migrate
-6. Create a superuser account: python manage.py createsuperuser
-7. Start the server: python manage.py runserver
+5. Create a superuser account: python manage.py createsuperuser
+6. Start the server: python manage.py runserver
 
 ## License
 
