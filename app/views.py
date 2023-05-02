@@ -287,6 +287,6 @@ def search(request):
     wishitem=0
     if request.user.is_authenticated:
         totalitem=len(Cart.objects.filter(user=request.user))
-        wishlist =len(Wishlist.objects.filter(user=request.user))
+        wishitem =len(Wishlist.objects.filter(user=request.user))
     product = Product.objects.filter(Q(title__icontains=query))
     return render(request,"app/search.html",locals())
