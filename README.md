@@ -2,7 +2,7 @@
 
 This is a web application built for an e-commerce store that allows users to browse and purchase products. The app is built using Python, Django.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tqrhwwvz2448arkv2afd.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l1pfs1x2i9bb31cl6mph.png)
 
 ## Installation
 

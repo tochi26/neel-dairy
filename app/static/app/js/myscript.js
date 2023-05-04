@@ -54,4 +54,3 @@ $('.remove-cart').click(function(){
     })
 
 })
-
