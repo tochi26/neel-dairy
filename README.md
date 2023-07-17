@@ -15,6 +15,10 @@ To install the app, follow these steps:
 5. Create a superuser account: python manage.py createsuperuser
 6. Start the server: python manage.py runserver
 
+## DEMO
+![Demo](https://drive.google.com/file/d/1EhPm9D09Zp3O68Z3pen19WAT5nKzdwc6/view?usp=sharing)
+
+
 ## License
 
 This project is licensed under the MIT License.

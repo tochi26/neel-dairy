@@ -209,18 +209,7 @@ class checkout(View):
             value = p.quantity * p.product.discounted_price
             famount = famount + value
         totalamount = famount + 40 
-        return render(request, 'app/checkout.html',locals()) 
-
-@login_required
-def orders(request):
-    totalitem = 0
-    wishitem = 0
-    if request.user.is_authenticated:
-        totalitem = len(Cart.objects.filter(user=request.user))
-        wishitem = len(Wishlist.objects.filter(user=request.user))
-    order_placed = OrdersPlaced.objects.filter(user=request.user)  
-    return render(request, 'app/orders.html', locals())
-       
+        return render(request, 'app/checkout.html',locals())        
 
 def plus_cart(request):
     if request.method == 'GET':
