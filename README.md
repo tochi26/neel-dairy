@@ -16,7 +16,7 @@ To install the app, follow these steps:
 6. Start the server: python manage.py runserver
 
 ## DEMO
-![Demo](https://drive.google.com/file/d/1EhPm9D09Zp3O68Z3pen19WAT5nKzdwc6/view?usp=sharing)
+https://drive.google.com/file/d/1EhPm9D09Zp3O68Z3pen19WAT5nKzdwc6/view?usp=sharing
 
 
 ## License
