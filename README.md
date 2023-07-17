@@ -16,7 +16,8 @@ To install the app, follow these steps:
 6. Start the server: python manage.py runserver
 
 ## DEMO
-https://drive.google.com/file/d/1EhPm9D09Zp3O68Z3pen19WAT5nKzdwc6/view?usp=sharing
+[![View Demo](https://img.shields.io/badge/View%20Demo-blue.svg)](https://drive.google.com/file/d/1EhPm9D09Zp3O68Z3pen19WAT5nKzdwc6/view?usp=sharing)
+
 
 
 ## License
